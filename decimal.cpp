@@ -1,3 +1,9 @@
+/*==============================================================================*
+* please read the README.md file                                                *
+*                                                                               *
+* to compile and run use:                                                       *
+* clear;g++ decimal.cpp -o decimal; "/home/test/Downloads/clock/"decimal        *
+*===============================================================================    */
 #include <iostream>
 //#include <unistd.h>
 #include <ctime>
