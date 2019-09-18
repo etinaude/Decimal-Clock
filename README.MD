@@ -47,3 +47,5 @@ This is highly illogical since the devisor is not a power of 10 nor a constant f
 this shows a decimal second is shorter than a standard one giving more acuracy while a minute and an hour is longer.
 
 the CPP code runs on adunio nano and displays both standard and decimal time.
+
+all code is on [github](https://github.com/etinaude/Decimal-Clock)
