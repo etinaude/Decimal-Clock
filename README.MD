@@ -1,6 +1,6 @@
 # Clock
 
-## This is a CPP programme which runs on ardinos
+## This code for a decimal clock which runs on arduino
 
 ### Why
 
@@ -46,6 +46,13 @@ This is highly illogical since the devisor is not a power of 10 nor a constant f
 
 this shows a decimal second is shorter than a standard one giving more acuracy while a minute and an hour is longer.
 
-the CPP code runs on adunio nano and displays both standard and decimal time.
+## Features to be added
 
-all code is on [github](https://github.com/etinaude/Decimal-Clock)
+* Button functionality
+* I will be adding networking capabilties
+
+I will also potentailly start selling prebuilt models.
+
+## circuit diagram
+
+![alt text](https://github.com/etinaude/Decimal-Clock/tree/master/Photos/diagram.png)
