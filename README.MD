@@ -55,4 +55,4 @@ I will also potentailly start selling prebuilt models.
 
 ## circuit diagram
 
-![alt text](https://github.com/etinaude/Decimal-Clock/tree/master/Photos/diagram.png)
+![diagram](https://github.com/etinaude/Decimal-Clock/tree/master/Photos/diagram.jpg)
