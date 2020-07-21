@@ -1,5 +1,7 @@
 # Clock
 
+## [website](https://etinaude.github.io/Decimal-Clock/index.html)
+
 ## This code for a decimal clock which runs on arduino
 
 ### Why
@@ -12,44 +14,44 @@ so I have created a clock for displaying time in both 24hr time and decimal time
 
 ## Standard 24hr time
 
-|Stnadard-|Hours|Minutes|Seconds|
-|----------:|-----------------| ------------:|-------------:|
-|1 Day =    | 24    | 1440|86 400|
-|1 Hour =   |-| 60| 3600|
-|1 Minute = |-|-| 60
+|  Stnadard- | Hours | Minutes | Seconds |
+| ---------: | ----- | ------: | ------: |
+|    1 Day = | 24    |    1440 |  86 400 |
+|   1 Hour = | -     |      60 |    3600 |
+| 1 Minute = | -     |       - |      60 |
 
 This is highly illogical since the devisor is not a power of 10 nor a constant for each increment.
 
 ## Decimal time
 
-|Decimal -|Hours|Minutes|Seconds|
-|----------:|----| ------------:|-------------:|
-|1 Day =    | 10 | 1000|100 000 |
-|1 Hour  =|-| 100      | 10 000|
-|1 Minute = |-|-| 100      |  
+|  Decimal - | Hours | Minutes | Seconds |
+| ---------: | ----- | ------: | ------: |
+|    1 Day = | 10    |    1000 | 100 000 |
+|   1 Hour = | -     |     100 |  10 000 |
+| 1 Minute = | -     |       - |     100 |
 
 ## 24 to decimal conversions
 
-|std/dec|Hours|Minutes|Seconds|
-|----------:|-------| -------:|-------------:|
-|1 Hour =   | 0.41| 41.67| 4166.67|
-|1 Minute = | 0.0069| 0.69| 69.44|
-|1 Second = | 0.00012| 0.012| 1.16|
+|    std/dec | Hours   | Minutes | Seconds |
+| ---------: | ------- | ------: | ------: |
+|   1 Hour = | 0.41    |   41.67 | 4166.67 |
+| 1 Minute = | 0.0069  |    0.69 |   69.44 |
+| 1 Second = | 0.00012 |   0.012 |    1.16 |
 
 ## Decimal to 24 conversions
 
-|dec/std|Hours|Minutes|Seconds|
-|----------:|-------| -------:|-------------:|
-|1 Hour =   | 2.40| 144.00| 8640|
-|1 Minute = | 0.024| 1.44| 86.40|
-|1 Second = | 0.0024| 0.014| 0.86|
+|    dec/std | Hours  | Minutes | Seconds |
+| ---------: | ------ | ------: | ------: |
+|   1 Hour = | 2.40   |  144.00 |    8640 |
+| 1 Minute = | 0.024  |    1.44 |   86.40 |
+| 1 Second = | 0.0024 |   0.014 |    0.86 |
 
 this shows a decimal second is shorter than a standard one giving more acuracy while a minute and an hour is longer.
 
 ## Features to be added
 
-* Button functionality
-* I will be adding networking capabilties
+- Button functionality
+- I will be adding networking capabilties
 
 I will also potentailly start selling prebuilt models.
 

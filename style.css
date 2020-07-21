@@ -1,8 +1,20 @@
 body {
   margin: 10%;
+  margin-top: 12%;
   font-size: 500%;
-  background-color: #102540;
+  background-color: #122230;
   color: #eeeeee;
+}
+a {
+  color: #eeeeee;
+}
+a:visited {
+  color: #eeeeee;
+}
+.link {
+  font-size: 40%;
+  text-align: right;
+  margin-top: 15%;
 }
 .clock {
   text-align: center;
