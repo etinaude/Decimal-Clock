@@ -1,0 +1,9 @@
+body {
+  margin: 10%;
+  font-size: 500%;
+  background-color: #102540;
+  color: #eeeeee;
+}
+.clock {
+  text-align: center;
+}
