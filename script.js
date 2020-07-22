@@ -29,6 +29,7 @@ function main() {
   // display
   document.getElementById("Decimal").innerHTML = D_time;
   document.getElementById("Standard").innerHTML = S_time;
+  document.getElementById("Title").innerHTML = D_time;
 }
 
 setInterval(main, 860);
